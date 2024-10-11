@@ -22,7 +22,13 @@ const Advarts = () => {
         <Slider {...settings}>
           {/* First slide */}
           <div className="flex flex-col justify-center h-[75vh]">
-            <div className="bg-[url('src/assets/reward.png')] bg-no-repeat bg-center bg-cover h-full w-full rounded-2xl p-5 sm:p-10 md:p-16 lg:p-20">
+            <div className=" h-full w-full rounded-2xl p-5 sm:p-10 md:p-16 lg:p-20"
+             style={{
+                backgroundImage: `url('src/assets/reward.png')`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+              }}>
               <div className="flex items-center space-x-4 mb-2">
                 <img
                   src={logo}

@@ -1,14 +1,20 @@
 import React from "react";
 import checkmark from "../assets/checkmark.png";
+import backgd from "../assets/backgd.png"
 
 const Herosection = () => {
   return (
     <section
       className=" 
-      bg-[url('src/assets/backgd.png')] 
-      bg-cover bg-center 
-      h-[80vh] sm:h-[100vh] 
+       sm:h-[100vh] 
       flex flex-col justify-center"
+      style={{
+        backgroundImage: `url('src/assets/backgd.png')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        height: "80vh", // Default height for small screens
+      }}
     >
       <div className="flex flex-col justify-center items-center h-full px-4 md:px-0">
         <h1 className="text-white text-3xl sm:text-5xl lg:text-6xl mb-4 sm:mb-7 text-center leading-snug">
