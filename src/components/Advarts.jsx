@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css";
 import logo from "../assets/logo.png";
+import reward from "../assets/reward.png"
 
 const Advarts = () => {
   var settings = {
@@ -24,7 +25,7 @@ const Advarts = () => {
           <div className="flex flex-col justify-center h-[75vh]">
             <div className=" h-full w-full rounded-2xl p-5 sm:p-10 md:p-16 lg:p-20"
              style={{
-                backgroundImage: `url('src/assets/reward.png')`,
+                backgroundImage: `url(${reward})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 backgroundSize: "cover",

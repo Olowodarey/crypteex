@@ -9,7 +9,7 @@ const Herosection = () => {
        sm:h-[100vh] 
       flex flex-col justify-center"
       style={{
-        backgroundImage: `url('src/assets/backgd.png')`,
+        backgroundImage: `url(${backgd})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
