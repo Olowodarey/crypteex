@@ -1,0 +1,25 @@
+/* Adjust dots position */
+.slick-dots {
+    bottom: 0px; /* Move dots closer to the slider */
+  }
+  
+  /* Customize Next/Previous arrows */
+  .slick-prev, .slick-next {
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    color: white;
+  }
+  
+  .slick-prev {
+    left: -20px; 
+    top :190px
+  }
+  
+  .slick-next {
+    right: -15px;
+    top :190px;
+  }
+  

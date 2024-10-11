@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --color-primary : 56, 36, 181, 100% ;
+    --color-white : 255, 255, 255, 100% ;
+    --color-secondary : 20, 11, 73, 100% ;
+    --faded-primary : 54, 182, 257, 27% ;
+    --color-black : 47, 47, 47, 100% ;
+    --color-black : 0, 0, 0, 100% ;
+    --color-green : 74, 222, 128, 100% ;
+    --color-red :  244, 14, 14, 100% ; 
+    
+  
+
+
+
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+
+
+
+
+
+  }
+}
+
