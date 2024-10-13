@@ -4,7 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css";
 import logo from "../assets/logo.png";
-import reward from "../assets/reward.png"
+import reward from "../assets/reward.png";
+import slider1 from "../assets/slider1.jpg";
+import sliser2 from "../assets/sliser2.jpg";
 
 const Advarts = () => {
   var settings = {
@@ -22,14 +24,16 @@ const Advarts = () => {
       <div className="container mx-auto px-4 sm:px-10 md:px-16 lg:px-20 h-[75vh]">
         <Slider {...settings}>
           {/* First slide */}
-          <div className="flex flex-col justify-center h-[75vh]">
-            <div className=" h-full w-full rounded-2xl p-5 sm:p-10 md:p-16 lg:p-20"
-             style={{
+          <div className="flex flex-col justify-center h-[65vh]">
+            <div
+              className=" h-full w-full rounded-2xl p-5 sm:p-10 md:p-16 lg:p-20"
+              style={{
                 backgroundImage: `url(${reward})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
-              }}>
+              }}
+            >
               <div className="flex items-center space-x-4 mb-2">
                 <img
                   src={logo}
@@ -56,13 +60,25 @@ const Advarts = () => {
           </div>
 
           {/* Second slide */}
-          <div className="flex flex-col justify-center items-center h-[75vh]">
-            <div className="bg-gradient-to-b from-[#85b0cb] to-[#753775] h-full w-full rounded-2xl p-5 sm:p-10 md:p-16">
+          <div className="flex flex-col justify-center items-center h-[65vh]">
+            <div
+              className="bg-gradient-to-b from-[#85b0cb] to-[#753775] h-full w-full rounded-2xl p-5 sm:p-10 md:p-16 "
+              style={{
+                backgroundImage: `url(${slider1})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+              }}
+            >
               <div className="flex flex-col sm:flex-row  space-x-10 space-y-6 sm:space-y-0">
                 {/* header */}
                 <div className="flex flex-col">
                   <div className="flex items-center space-x-4 mb-2">
-                    <img src={logo} alt="Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
+                    <img
+                      src={logo}
+                      alt="Logo"
+                      className="w-12 h-12 sm:w-16 sm:h-16"
+                    />
                     <span className="text-white font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl">
                       Strike Options
                     </span>
@@ -80,62 +96,54 @@ const Advarts = () => {
                     </button>
                   </div>
                 </div>
-
-                {/*  circles */}
-                <div className="relative mt-10 sm:mt-0">
-                  <div className="w-24 h-24 sm:w-40 sm:h-40 bg-fadedprimary rounded-full absolute top-0 left-20 mix-blend-multiply"></div>
-                  <div className="w-24 h-24 sm:w-40 sm:h-40 bg-secondary rounded-full absolute top-16 left-10 mix-blend-multiply"></div>
-                  <div className="w-24 h-24 sm:w-40 sm:h-40 bg-primary rounded-full absolute top-12 left-32 mix-blend-multiply"></div>
-                </div>
               </div>
             </div>
           </div>
 
           {/* Third slide */}
 
-          
+          <div className="flex flex-col justify-center items-center h-[65vh]">
+            <div
+              className="bg-gradient-to-b from-[#85b0cb] to-[#46938b] h-full w-full rounded-2xl p-5 sm:p-10 md:p-16"
+              style={{
+                backgroundImage: `url(${sliser2})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+              }}
+            >
+              <div className="flex flex-col sm:flex-row  space-x-10 space-y-6 sm:space-y-0">
+                {/* header */}
+                <div className="flex flex-col">
+                  <div className="flex items-center space-x-4 mb-2">
+                    <img
+                      src={logo}
+                      alt="Logo"
+                      className="w-12 h-12 sm:w-16 sm:h-16"
+                    />
+                    <span className="text-white font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl">
+                      Up or Down Options
+                    </span>
+                  </div>
 
+                  <div>
+                    <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-3xl leading-tight">
+                      Pinpoint opportunities in <br /> any market condition
+                    </h1>
+                  </div>
 
-<div className="flex flex-col justify-center items-center h-[75vh]">
-<div className="bg-gradient-to-b from-[#85b0cb] to-[#46938b] h-full w-full rounded-2xl p-5 sm:p-10 md:p-16">
-  <div className="flex flex-col sm:flex-row  space-x-10 space-y-6 sm:space-y-0">
-    {/* header */}
-    <div className="flex flex-col">
-      <div className="flex items-center space-x-4 mb-2">
-        <img src={logo} alt="Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
-        <span className="text-white font-bold text-lg sm:text-xl md:text-2xl lg:text-2xl">
-        Up or Down Options
-        </span>
-      </div>
+                  <div className="pt-8 sm:pt-10">
+                    <button className="rounded-3xl border border-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base">
+                      Start Trading
+                    </button>
+                  </div>
+                </div>
 
-      <div>
-        <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl lg:text-3xl leading-tight">
-          Pinpoint opportunities in  <br /> any market condition
-        </h1>
-      </div>
-
-      <div className="pt-8 sm:pt-10">
-        <button className="rounded-3xl border border-white px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base">
-          Start Trading
-        </button>
-      </div>
-    </div>
-
-    {/*  circles */}
-    <div className="relative mt-10 sm:mt-0">
-  {/* Triangle 1 - Top Triangle */}
-  <div className="w-0 h-0 border-l-[40px] border-r-[40px] border-b-[70px] border-l-transparent border-r-transparent border-b-secondary absolute top-0 left-[50%] translate-x-[-50%] mix-blend-multiply"></div>
-  
-  {/* Triangle 2 - Bottom Left Triangle */}
-  <div className="w-0 h-0 border-l-[40px] border-r-[40px] border-b-[70px] border-l-transparent border-r-transparent border-b-secondary absolute top-[70px] sm:top-[100px] left-[30%] mix-blend-multiply"></div>
-  
-  {/* Triangle 3 - Bottom Right Triangle */}
-  <div className="w-0 h-0 border-l-[40px] border-r-[40px] border-b-[70px] border-l-transparent border-r-transparent border-b-secondary absolute top-[70px] sm:top-[100px] left-[70%] mix-blend-multiply"></div>
-</div>
-  </div>
-</div>
-</div>
-        
+                {/*  circles */}
+            
+              </div>
+            </div>
+          </div>
         </Slider>
       </div>
     </div>

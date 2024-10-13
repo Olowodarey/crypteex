@@ -126,7 +126,7 @@ const Advarttwo = () => {
 
               {/* Balance Section */}
               <div className="flex flex-col items-center justify-center mt-5 p-2 px-6">
-                <h1 className="text-black">Current Total Balance</h1>
+                <h1 className="text-amber">Current Total Balance</h1>
                 <h2 className="flex items-center">
                   <BsCurrencyDollar className="text-black" />{" "}
                   <span className="font-bold text-white text-2xl">10,0111</span>

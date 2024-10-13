@@ -57,7 +57,7 @@ export default function Company() {
         <div className="px-4">
           <div className="my-4">
             <h1 className="text-secondary font-bold">About Us</h1>
-            <div className="flex space-x-[0px] sm:space-x-[30px] ">
+            <div className="flex space-x-[10px] sm:space-x-[30px] ">
               <div className="border-l-2 pl-2 text-black">
                 <h1 className="font-bold underline underline-offset-[4px]">
                   About
@@ -78,7 +78,7 @@ export default function Company() {
 
           <div className="my-4">
             <h1 className="text-secondary font-bold">Opportunities</h1>
-            <div className="flex space-x-[-10px] sm:space-x-[15px]">
+            <div className="flex space-x-[9px] sm:space-x-[15px]">
               <div className="border-l-2 pl-2 text-black">
                 <h1 className="font-bold underline underline-offset-[4px]">
                   Careers

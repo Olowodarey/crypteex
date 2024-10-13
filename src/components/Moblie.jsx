@@ -26,12 +26,12 @@ const Moblie = () => {
           className="w-[390px] h-[390px] sm:w-[550px] sm:h-[550px] rounded-full"
           style={{
             background: "linear-gradient(to bottom, #3824B5 100%, #8A2BE2 0%)",
-            filter: "blur(100px)",
+            filter: "blur(150px)",
           }}
         />
       </div>
 
-      <div className="relative z-10 bg-secondary h-[760px] sm:h-[760px] w-[350px] border-[10px] border-bblack rounded-3xl ">
+      <div className="relative z-10 bg-secondary h-[760px] sm:h-[760px] w-[320px] border-[10px] border-bblack rounded-3xl ">
         {/* Nav Section */}
         <div className="flex justify-between items-center px-6 mt-4">
           <p className="text-white px-3">9.41</p>
@@ -63,7 +63,7 @@ const Moblie = () => {
 
         {/* Balance Section */}
         <div className="flex flex-col items-center justify-center mt-5 p-2 px-6 ">
-          <h1 className="text-black">Current Total Balance</h1>
+          <h1 className="text-amber">Current Total Balance</h1>
           <h2 className="flex items-center">
             <BsCurrencyDollar className="text-black" />{" "}
             <span className="font-bold text-white text-2xl">10,0111</span>

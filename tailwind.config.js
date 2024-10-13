@@ -13,7 +13,8 @@ export default {
       secondary: 'rgb(var(--color-secondary))',
       bblack : 'rgb(var( --color-black))',
       green : 'rgb(var( --color-green))',
-      red :   'rgb(var( --color-red))'
+      red :   'rgb(var( --color-red))',
+      amber :   'rgb(var( --color-amber))'
       
     },
 
@@ -21,3 +22,4 @@ export default {
   },
   plugins: [],
 }
+
